@@ -51,15 +51,17 @@ h1 {
   transform: rotateY(180deg);
 }
 
+/* Hides the front content on hover */
 .card:hover .front {
   display: none;
 }
 
+/* Shows the back of card on hover */
 .card:hover .back {
   display: block;
 }
 
-/* Hides the back text */
+/* Hides the back text (when not on hover) */
 .back {
   display: none;
   transform: rotateY(180deg);
@@ -67,6 +69,16 @@ h1 {
 
 .front,
 .back {
-  /* Hides the flipped backwards text in the middle of the transformation */
+  /* Hides the flipped backwards text in the middle of the transformation. Removes the mirrored 'ghost text'. */
   backface-visibility: hidden;
+}
+
+/* ----------- TACO ANIMATION SECTION ---------- */
+.plate {
+  position: absolute;
+  left: 13%;
+  width: 75%;
+  height: 87%;
+  background: whitesmoke;
+  border-radius: 50%;
 }
