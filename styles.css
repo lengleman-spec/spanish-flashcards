@@ -124,3 +124,13 @@ h1 {
   transform: rotate(-8deg);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
+
+.meat {
+  width: 180px;
+  height: 35px;
+  background: #8b3f32;
+  position: absolute;
+  top: 55px;
+  left: 40px;
+  border-radius: 30px;
+}
