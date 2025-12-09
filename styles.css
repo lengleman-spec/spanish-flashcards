@@ -92,3 +92,13 @@ h1 {
   background: whitesmoke;
   border-radius: 50%;
 }
+
+.bread-behind {
+  position: absolute;
+  left: 9%;
+  width: 78%;
+  height: 53%;
+  background: rgb(184, 128, 26);
+  border: 6px solid goldenrod;
+  border-radius: 50%;
+}
