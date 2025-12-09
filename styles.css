@@ -145,3 +145,16 @@ h1 {
   border-radius: 20px;
   transform: rotate(5deg);
 }
+
+.tomatoes {
+  width: 18px;
+  height: 18px;
+  background: #e45454;
+  border-radius: 50%;
+  position: absolute;
+  top: 48px;
+  left: 130px;
+  box-shadow: 20px 5px 0 #e45454, -25px 10px 0 #e45454, 40px -12px 0 #e45454,
+    30px -16px 0 #e45454;
+}
+/* Box-shadow above creates 3 more 'tomatoes', separated by commas */
