@@ -74,6 +74,16 @@ h1 {
 }
 
 /* ----------- TACO ANIMATION SECTION ---------- */
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: -2%;
+  width: 600px;
+  height: 420px;
+  background: none;
+}
+
 .plate {
   position: absolute;
   left: 13%;
