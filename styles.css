@@ -3,3 +3,28 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.card {
+  background-color: blanchedalmond;
+  border: 3px solid black;
+  border-radius: 4px;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
