@@ -80,8 +80,8 @@ h1 {
 
 /* ----------- TACO ANIMATION SECTION ---------- */
 .animation-container {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   margin-top: 4rem;
 }
 
@@ -90,6 +90,7 @@ h1 {
   width: 260px;
   height: 180px;
   filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.4));
+  transform: rotate(-25deg);
 }
 
 .plate {
