@@ -3,13 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* 
 .card-container {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 80vh;
-}
+} */
 
 .card {
   background-color: blanchedalmond;
@@ -27,4 +27,24 @@
 
 .card:hover {
   transform: rotateY(180deg);
+}
+
+.card:hover .front {
+  display: none;
+}
+
+.card:hover .back {
+  display: block;
+}
+
+/* Hides the back text */
+.back {
+  display: none;
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  /* Hides the flipped backwards text in the middle of the transformation */
+  backface-visibility: hidden;
 }
