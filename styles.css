@@ -11,6 +11,11 @@
   height: 80vh;
 } */
 
+h1 {
+  margin: 2rem auto;
+  text-align: center;
+}
+
 .card {
   background-color: blanchedalmond;
   border: 3px solid black;
