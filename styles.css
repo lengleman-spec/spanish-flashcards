@@ -10,6 +10,11 @@
 :root {
   --brown: rgb(71, 43, 11);
   --dark-brown: rgb(49, 30, 7);
+  --graph-bg: #000;
+  --default-square-bg: #161b22;
+  --level3: darkblue;
+  --level5: blue;
+  --level10: lightskyblue;
 }
 
 body {
@@ -189,4 +194,12 @@ h1 {
   font-weight: 600;
   margin-top: 2rem;
   text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.8);
+}
+
+/* Practice Chart */
+.graph-container {
+  background-color: blue;
+}
+.graph ul {
+  color: white;
 }
